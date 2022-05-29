@@ -1,7 +1,9 @@
 package me.nickoman.net;
 
-import me.nickoman.net.Block.TestBlock;
-import me.nickoman.net.Block.TestItem;
+import me.nickoman.net.CustomBlocks.Building_Blocks_Plus;
+import me.nickoman.net.CustomBlocks.TestBlock;
+import me.nickoman.net.CustomItems.TestItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
@@ -33,9 +35,18 @@ public class BlockieMain {
         @Override
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(TestItem.EXAMPLE_ITEM.get());
+            return new ItemStack(TestItem.TEST_ITEM.get());
         }
     };
+
+    public static final CreativeModeTab BUILDING_BLOCKS_PLUS = new CreativeModeTab(MOD_ID) {
+        @Override
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(Building_Blocks_Plus.MOSSY_BRICKS.get());
+        }
+    };
+
 
     private static final Logger LOGGER = LogManager.getLogger();
     public BlockieMain() {
@@ -50,6 +61,7 @@ public class BlockieMain {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         TestItem.ITEMS.register(bus);
         TestBlock.BLOCKS.register(bus);
+        Building_Blocks_Plus.BLOCKS.register(bus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 

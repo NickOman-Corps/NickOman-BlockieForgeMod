@@ -2,11 +2,11 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls" : 1.0,
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blockieforgemod.amongus_amongus"
+          "name": "blockieforgemod:polished_granite_bricks"
         }
       ]
     }

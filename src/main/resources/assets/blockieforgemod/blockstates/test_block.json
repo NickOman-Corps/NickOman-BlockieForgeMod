@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "blockieforgemod:block/test_block"
+		}
+	}
+}

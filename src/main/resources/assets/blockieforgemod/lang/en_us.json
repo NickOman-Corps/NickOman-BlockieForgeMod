@@ -1,5 +1,16 @@
 {
-  "itemGroup.blockieforgemod" : "You a bitch",
-  "item.blockieforgemod.you_a_bitch": "You a Bitch",
-  "block.blockieforgemod.amongus_amongus": "amongus amongus"
+	"item.blockieforgemod.test_item": "Example Item",
+	"itemGroup.blockieforgemod": "Example Mod Tab",
+	"itemGroup.blockieforgemod": "Building Blocks Plus",
+	"block.blockieforgemod.test_block": "Example Block",
+	"block.blockieforgemod.mossy_bricks":"Mossy Bricks",
+    "block.blockieforgemod.polished_granite_bricks":"Polished Granite Bricks",
+	"block.blockieforgemod.polished_andesite_bricks":"Polished Andesite Bricks",
+	"block.blockieforgemod.polished_diorite_bricks":"Polished Diorite Bricks",
+	"block.blockieforgemod.polished_diorite_bricks_stairs":"Polished Diorite Brick Stairs",
+	"block.blockieforgemod.polished_andesite_bricks_stairs":"Polished Andesite Brick Stairs",
+	"block.blockieforgemod.polished_granite_bricks_stairs":"Polished Granite Brick Stairs",
+	"block.blockieforgemod.polished_diorite_bricks_slab":"Polished Diorite Brick Slab",
+	"block.blockieforgemod.polished_andesite_bricks_slab":"Polished Andesite Brick Slab",
+	"block.blockieforgemod.polished_granite_bricks_slab":"Polished Granite Brick Slab"
 }
